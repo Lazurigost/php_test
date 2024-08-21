@@ -1,5 +1,15 @@
 {
+
+    
     "require": {
-        "predis/predis": "^2.0"
+        "predis/predis": "^2.2",
+        "php-amqplib/php-amqplib": "^2.8"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Models\\": "src/Models/",
+            "Controllers\\": "src/Controllers/"
+        }
     }
 }
